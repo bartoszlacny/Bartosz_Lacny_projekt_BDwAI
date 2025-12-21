@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36717.8 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bartosz_Łacny_projekt_BDwAI", "Bartosz_Łacny_projekt_BDwAI\Bartosz_Łacny_projekt_BDwAI.csproj", "{7EC90B1D-CEE8-47B8-9519-821F6F2C3163}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7EC90B1D-CEE8-47B8-9519-821F6F2C3163}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EC90B1D-CEE8-47B8-9519-821F6F2C3163}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EC90B1D-CEE8-47B8-9519-821F6F2C3163}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EC90B1D-CEE8-47B8-9519-821F6F2C3163}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6F4AC92A-212E-4D8B-B6AE-607BD3EF45E0}
+	EndGlobalSection
+EndGlobal
