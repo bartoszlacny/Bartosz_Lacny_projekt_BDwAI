@@ -1,12 +1,313 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\lbart\\source\\repos\\Bartosz_Lacny_projekt_bazy_danych\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\lbart\\source\\repos\\Bartosz_\u0141acny_projekt_BDwAI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D8974231-C347-4AFD-A21E-0DF6BB640308}|Bartosz_Lacny_projekt_bazy_danych\\Bartosz_Lacny_projekt_bazy_danych.csproj|c:\\users\\lbart\\source\\repos\\bartosz_\u0142acny_projekt_bdwai\\bartosz_lacny_projekt_bazy_danych\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D8974231-C347-4AFD-A21E-0DF6BB640308}|Bartosz_Lacny_projekt_bazy_danych\\Bartosz_Lacny_projekt_bazy_danych.csproj|solutionrelative:bartosz_lacny_projekt_bazy_danych\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8974231-C347-4AFD-A21E-0DF6BB640308}|Bartosz_Lacny_projekt_bazy_danych\\Bartosz_Lacny_projekt_bazy_danych.csproj|c:\\users\\lbart\\source\\repos\\bartosz_\u0142acny_projekt_bdwai\\bartosz_lacny_projekt_bazy_danych\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D8974231-C347-4AFD-A21E-0DF6BB640308}|Bartosz_Lacny_projekt_bazy_danych\\Bartosz_Lacny_projekt_bazy_danych.csproj|solutionrelative:bartosz_lacny_projekt_bazy_danych\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8974231-C347-4AFD-A21E-0DF6BB640308}|Bartosz_Lacny_projekt_bazy_danych\\Bartosz_Lacny_projekt_bazy_danych.csproj|c:\\users\\lbart\\source\\repos\\bartosz_\u0142acny_projekt_bdwai\\bartosz_lacny_projekt_bazy_danych\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D8974231-C347-4AFD-A21E-0DF6BB640308}|Bartosz_Lacny_projekt_bazy_danych\\Bartosz_Lacny_projekt_bazy_danych.csproj|solutionrelative:bartosz_lacny_projekt_bazy_danych\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8974231-C347-4AFD-A21E-0DF6BB640308}|Bartosz_Lacny_projekt_bazy_danych\\Bartosz_Lacny_projekt_bazy_danych.csproj|c:\\users\\lbart\\source\\repos\\bartosz_\u0142acny_projekt_bdwai\\bartosz_lacny_projekt_bazy_danych\\controllers\\adoptionapplicationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8974231-C347-4AFD-A21E-0DF6BB640308}|Bartosz_Lacny_projekt_bazy_danych\\Bartosz_Lacny_projekt_bazy_danych.csproj|solutionrelative:bartosz_lacny_projekt_bazy_danych\\controllers\\adoptionapplicationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8974231-C347-4AFD-A21E-0DF6BB640308}|Bartosz_Lacny_projekt_bazy_danych\\Bartosz_Lacny_projekt_bazy_danych.csproj|c:\\users\\lbart\\source\\repos\\bartosz_\u0142acny_projekt_bdwai\\bartosz_lacny_projekt_bazy_danych\\controllers\\cagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8974231-C347-4AFD-A21E-0DF6BB640308}|Bartosz_Lacny_projekt_bazy_danych\\Bartosz_Lacny_projekt_bazy_danych.csproj|solutionrelative:bartosz_lacny_projekt_bazy_danych\\controllers\\cagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8974231-C347-4AFD-A21E-0DF6BB640308}|Bartosz_Lacny_projekt_bazy_danych\\Bartosz_Lacny_projekt_bazy_danych.csproj|c:\\users\\lbart\\source\\repos\\bartosz_\u0142acny_projekt_bdwai\\bartosz_lacny_projekt_bazy_danych\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8974231-C347-4AFD-A21E-0DF6BB640308}|Bartosz_Lacny_projekt_bazy_danych\\Bartosz_Lacny_projekt_bazy_danych.csproj|solutionrelative:bartosz_lacny_projekt_bazy_danych\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8974231-C347-4AFD-A21E-0DF6BB640308}|Bartosz_Lacny_projekt_bazy_danych\\Bartosz_Lacny_projekt_bazy_danych.csproj|c:\\users\\lbart\\source\\repos\\bartosz_\u0142acny_projekt_bdwai\\bartosz_lacny_projekt_bazy_danych\\controllers\\animalscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8974231-C347-4AFD-A21E-0DF6BB640308}|Bartosz_Lacny_projekt_bazy_danych\\Bartosz_Lacny_projekt_bazy_danych.csproj|solutionrelative:bartosz_lacny_projekt_bazy_danych\\controllers\\animalscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8974231-C347-4AFD-A21E-0DF6BB640308}|Bartosz_Lacny_projekt_bazy_danych\\Bartosz_Lacny_projekt_bazy_danych.csproj|c:\\users\\lbart\\source\\repos\\bartosz_\u0142acny_projekt_bdwai\\bartosz_lacny_projekt_bazy_danych\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D8974231-C347-4AFD-A21E-0DF6BB640308}|Bartosz_Lacny_projekt_bazy_danych\\Bartosz_Lacny_projekt_bazy_danych.csproj|solutionrelative:bartosz_lacny_projekt_bazy_danych\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8974231-C347-4AFD-A21E-0DF6BB640308}|Bartosz_Lacny_projekt_bazy_danych\\Bartosz_Lacny_projekt_bazy_danych.csproj|c:\\users\\lbart\\source\\repos\\bartosz_\u0142acny_projekt_bdwai\\bartosz_lacny_projekt_bazy_danych\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{D8974231-C347-4AFD-A21E-0DF6BB640308}|Bartosz_Lacny_projekt_bazy_danych\\Bartosz_Lacny_projekt_bazy_danych.csproj|solutionrelative:bartosz_lacny_projekt_bazy_danych\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8974231-C347-4AFD-A21E-0DF6BB640308}|Bartosz_Lacny_projekt_bazy_danych\\Bartosz_Lacny_projekt_bazy_danych.csproj|c:\\users\\lbart\\source\\repos\\bartosz_\u0142acny_projekt_bdwai\\bartosz_lacny_projekt_bazy_danych\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D8974231-C347-4AFD-A21E-0DF6BB640308}|Bartosz_Lacny_projekt_bazy_danych\\Bartosz_Lacny_projekt_bazy_danych.csproj|solutionrelative:bartosz_lacny_projekt_bazy_danych\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8974231-C347-4AFD-A21E-0DF6BB640308}|Bartosz_Lacny_projekt_bazy_danych\\Bartosz_Lacny_projekt_bazy_danych.csproj|c:\\users\\lbart\\source\\repos\\bartosz_\u0142acny_projekt_bdwai\\bartosz_lacny_projekt_bazy_danych\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8974231-C347-4AFD-A21E-0DF6BB640308}|Bartosz_Lacny_projekt_bazy_danych\\Bartosz_Lacny_projekt_bazy_danych.csproj|solutionrelative:bartosz_lacny_projekt_bazy_danych\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8974231-C347-4AFD-A21E-0DF6BB640308}|Bartosz_Lacny_projekt_bazy_danych\\Bartosz_Lacny_projekt_bazy_danych.csproj|c:\\users\\lbart\\source\\repos\\bartosz_\u0142acny_projekt_bdwai\\bartosz_lacny_projekt_bazy_danych\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8974231-C347-4AFD-A21E-0DF6BB640308}|Bartosz_Lacny_projekt_bazy_danych\\Bartosz_Lacny_projekt_bazy_danych.csproj|solutionrelative:bartosz_lacny_projekt_bazy_danych\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8974231-C347-4AFD-A21E-0DF6BB640308}|Bartosz_Lacny_projekt_bazy_danych\\Bartosz_Lacny_projekt_bazy_danych.csproj|c:\\users\\lbart\\source\\repos\\bartosz_\u0142acny_projekt_bdwai\\bartosz_lacny_projekt_bazy_danych\\models\\adoptionapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8974231-C347-4AFD-A21E-0DF6BB640308}|Bartosz_Lacny_projekt_bazy_danych\\Bartosz_Lacny_projekt_bazy_danych.csproj|solutionrelative:bartosz_lacny_projekt_bazy_danych\\models\\adoptionapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8974231-C347-4AFD-A21E-0DF6BB640308}|Bartosz_Lacny_projekt_bazy_danych\\Bartosz_Lacny_projekt_bazy_danych.csproj|c:\\users\\lbart\\source\\repos\\bartosz_\u0142acny_projekt_bdwai\\bartosz_lacny_projekt_bazy_danych\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8974231-C347-4AFD-A21E-0DF6BB640308}|Bartosz_Lacny_projekt_bazy_danych\\Bartosz_Lacny_projekt_bazy_danych.csproj|solutionrelative:bartosz_lacny_projekt_bazy_danych\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8974231-C347-4AFD-A21E-0DF6BB640308}|Bartosz_Lacny_projekt_bazy_danych\\Bartosz_Lacny_projekt_bazy_danych.csproj|c:\\users\\lbart\\source\\repos\\bartosz_\u0142acny_projekt_bdwai\\bartosz_lacny_projekt_bazy_danych\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8974231-C347-4AFD-A21E-0DF6BB640308}|Bartosz_Lacny_projekt_bazy_danych\\Bartosz_Lacny_projekt_bazy_danych.csproj|solutionrelative:bartosz_lacny_projekt_bazy_danych\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8974231-C347-4AFD-A21E-0DF6BB640308}|Bartosz_Lacny_projekt_bazy_danych\\Bartosz_Lacny_projekt_bazy_danych.csproj|c:\\users\\lbart\\source\\repos\\bartosz_\u0142acny_projekt_bdwai\\bartosz_lacny_projekt_bazy_danych\\models\\cage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8974231-C347-4AFD-A21E-0DF6BB640308}|Bartosz_Lacny_projekt_bazy_danych\\Bartosz_Lacny_projekt_bazy_danych.csproj|solutionrelative:bartosz_lacny_projekt_bazy_danych\\models\\cage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8974231-C347-4AFD-A21E-0DF6BB640308}|Bartosz_Lacny_projekt_bazy_danych\\Bartosz_Lacny_projekt_bazy_danych.csproj|c:\\users\\lbart\\source\\repos\\bartosz_\u0142acny_projekt_bdwai\\bartosz_lacny_projekt_bazy_danych\\models\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8974231-C347-4AFD-A21E-0DF6BB640308}|Bartosz_Lacny_projekt_bazy_danych\\Bartosz_Lacny_projekt_bazy_danych.csproj|solutionrelative:bartosz_lacny_projekt_bazy_danych\\models\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8974231-C347-4AFD-A21E-0DF6BB640308}|Bartosz_Lacny_projekt_bazy_danych\\Bartosz_Lacny_projekt_bazy_danych.csproj|c:\\users\\lbart\\source\\repos\\bartosz_\u0142acny_projekt_bdwai\\bartosz_lacny_projekt_bazy_danych\\data\\migrations\\20251223112620_inicjalizacja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8974231-C347-4AFD-A21E-0DF6BB640308}|Bartosz_Lacny_projekt_bazy_danych\\Bartosz_Lacny_projekt_bazy_danych.csproj|solutionrelative:bartosz_lacny_projekt_bazy_danych\\data\\migrations\\20251223112620_inicjalizacja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\lbart\\source\\repos\\Bartosz_\u0141acny_projekt_BDwAI\\Bartosz_Lacny_projekt_bazy_danych\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Bartosz_Lacny_projekt_bazy_danych\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\lbart\\source\\repos\\Bartosz_\u0141acny_projekt_BDwAI\\Bartosz_Lacny_projekt_bazy_danych\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "Bartosz_Lacny_projekt_bazy_danych\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAwwCcAAAByAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-23T11:47:12.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\lbart\\source\\repos\\Bartosz_\u0141acny_projekt_BDwAI\\Bartosz_Lacny_projekt_bazy_danych\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Bartosz_Lacny_projekt_bazy_danych\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\lbart\\source\\repos\\Bartosz_\u0141acny_projekt_BDwAI\\Bartosz_Lacny_projekt_bazy_danych\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Bartosz_Lacny_projekt_bazy_danych\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-23T11:38:25.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AdoptionApplicationsController.cs",
+              "DocumentMoniker": "C:\\Users\\lbart\\source\\repos\\Bartosz_\u0141acny_projekt_BDwAI\\Bartosz_Lacny_projekt_bazy_danych\\Controllers\\AdoptionApplicationsController.cs",
+              "RelativeDocumentMoniker": "Bartosz_Lacny_projekt_bazy_danych\\Controllers\\AdoptionApplicationsController.cs",
+              "ToolTip": "C:\\Users\\lbart\\source\\repos\\Bartosz_\u0141acny_projekt_BDwAI\\Bartosz_Lacny_projekt_bazy_danych\\Controllers\\AdoptionApplicationsController.cs",
+              "RelativeToolTip": "Bartosz_Lacny_projekt_bazy_danych\\Controllers\\AdoptionApplicationsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T11:38:20.745Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CagesController.cs",
+              "DocumentMoniker": "C:\\Users\\lbart\\source\\repos\\Bartosz_\u0141acny_projekt_BDwAI\\Bartosz_Lacny_projekt_bazy_danych\\Controllers\\CagesController.cs",
+              "RelativeDocumentMoniker": "Bartosz_Lacny_projekt_bazy_danych\\Controllers\\CagesController.cs",
+              "ToolTip": "C:\\Users\\lbart\\source\\repos\\Bartosz_\u0141acny_projekt_BDwAI\\Bartosz_Lacny_projekt_bazy_danych\\Controllers\\CagesController.cs",
+              "RelativeToolTip": "Bartosz_Lacny_projekt_bazy_danych\\Controllers\\CagesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T11:37:52.236Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\lbart\\source\\repos\\Bartosz_\u0141acny_projekt_BDwAI\\Bartosz_Lacny_projekt_bazy_danych\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "Bartosz_Lacny_projekt_bazy_danych\\Controllers\\CategoriesController.cs",
+              "ToolTip": "C:\\Users\\lbart\\source\\repos\\Bartosz_\u0141acny_projekt_BDwAI\\Bartosz_Lacny_projekt_bazy_danych\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "Bartosz_Lacny_projekt_bazy_danych\\Controllers\\CategoriesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T11:37:17.39Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AnimalsController.cs",
+              "DocumentMoniker": "C:\\Users\\lbart\\source\\repos\\Bartosz_\u0141acny_projekt_BDwAI\\Bartosz_Lacny_projekt_bazy_danych\\Controllers\\AnimalsController.cs",
+              "RelativeDocumentMoniker": "Bartosz_Lacny_projekt_bazy_danych\\Controllers\\AnimalsController.cs",
+              "ToolTip": "C:\\Users\\lbart\\source\\repos\\Bartosz_\u0141acny_projekt_BDwAI\\Bartosz_Lacny_projekt_bazy_danych\\Controllers\\AnimalsController.cs",
+              "RelativeToolTip": "Bartosz_Lacny_projekt_bazy_danych\\Controllers\\AnimalsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T11:36:22.019Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ScaffoldingReadMe.txt",
+              "DocumentMoniker": "C:\\Users\\lbart\\source\\repos\\Bartosz_\u0141acny_projekt_BDwAI\\Bartosz_Lacny_projekt_bazy_danych\\ScaffoldingReadMe.txt",
+              "RelativeDocumentMoniker": "Bartosz_Lacny_projekt_bazy_danych\\ScaffoldingReadMe.txt",
+              "ToolTip": "C:\\Users\\lbart\\source\\repos\\Bartosz_\u0141acny_projekt_BDwAI\\Bartosz_Lacny_projekt_bazy_danych\\ScaffoldingReadMe.txt",
+              "RelativeToolTip": "Bartosz_Lacny_projekt_bazy_danych\\ScaffoldingReadMe.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-12-23T11:27:39.175Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "20251223112620_Inicjalizacja.cs",
+              "DocumentMoniker": "C:\\Users\\lbart\\source\\repos\\Bartosz_\u0141acny_projekt_BDwAI\\Bartosz_Lacny_projekt_bazy_danych\\Data\\Migrations\\20251223112620_Inicjalizacja.cs",
+              "RelativeDocumentMoniker": "Bartosz_Lacny_projekt_bazy_danych\\Data\\Migrations\\20251223112620_Inicjalizacja.cs",
+              "ToolTip": "C:\\Users\\lbart\\source\\repos\\Bartosz_\u0141acny_projekt_BDwAI\\Bartosz_Lacny_projekt_bazy_danych\\Data\\Migrations\\20251223112620_Inicjalizacja.cs",
+              "RelativeToolTip": "Bartosz_Lacny_projekt_bazy_danych\\Data\\Migrations\\20251223112620_Inicjalizacja.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T11:26:20.574Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\lbart\\source\\repos\\Bartosz_\u0141acny_projekt_BDwAI\\Bartosz_Lacny_projekt_bazy_danych\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Bartosz_Lacny_projekt_bazy_danych\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\lbart\\source\\repos\\Bartosz_\u0141acny_projekt_BDwAI\\Bartosz_Lacny_projekt_bazy_danych\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "Bartosz_Lacny_projekt_bazy_danych\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB8AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-23T11:17:38.159Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\lbart\\source\\repos\\Bartosz_\u0141acny_projekt_BDwAI\\Bartosz_Lacny_projekt_bazy_danych\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "Bartosz_Lacny_projekt_bazy_danych\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\lbart\\source\\repos\\Bartosz_\u0141acny_projekt_BDwAI\\Bartosz_Lacny_projekt_bazy_danych\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "Bartosz_Lacny_projekt_bazy_danych\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-23T11:13:02.782Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\lbart\\source\\repos\\Bartosz_\u0141acny_projekt_BDwAI\\Bartosz_Lacny_projekt_bazy_danych\\appsettings.json",
+              "RelativeDocumentMoniker": "Bartosz_Lacny_projekt_bazy_danych\\appsettings.json",
+              "ToolTip": "C:\\Users\\lbart\\source\\repos\\Bartosz_\u0141acny_projekt_BDwAI\\Bartosz_Lacny_projekt_bazy_danych\\appsettings.json",
+              "RelativeToolTip": "Bartosz_Lacny_projekt_bazy_danych\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-23T11:09:04.445Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Cage.cs",
+              "DocumentMoniker": "C:\\Users\\lbart\\source\\repos\\Bartosz_\u0141acny_projekt_BDwAI\\Bartosz_Lacny_projekt_bazy_danych\\Models\\Cage.cs",
+              "RelativeDocumentMoniker": "Bartosz_Lacny_projekt_bazy_danych\\Models\\Cage.cs",
+              "ToolTip": "C:\\Users\\lbart\\source\\repos\\Bartosz_\u0141acny_projekt_BDwAI\\Bartosz_Lacny_projekt_bazy_danych\\Models\\Cage.cs",
+              "RelativeToolTip": "Bartosz_Lacny_projekt_bazy_danych\\Models\\Cage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T10:11:09.847Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\lbart\\source\\repos\\Bartosz_\u0141acny_projekt_BDwAI\\Bartosz_Lacny_projekt_bazy_danych\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Bartosz_Lacny_projekt_bazy_danych\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\lbart\\source\\repos\\Bartosz_\u0141acny_projekt_BDwAI\\Bartosz_Lacny_projekt_bazy_danych\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Bartosz_Lacny_projekt_bazy_danych\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T10:07:12.784Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AdoptionApplication.cs",
+              "DocumentMoniker": "C:\\Users\\lbart\\source\\repos\\Bartosz_\u0141acny_projekt_BDwAI\\Bartosz_Lacny_projekt_bazy_danych\\Models\\AdoptionApplication.cs",
+              "RelativeDocumentMoniker": "Bartosz_Lacny_projekt_bazy_danych\\Models\\AdoptionApplication.cs",
+              "ToolTip": "C:\\Users\\lbart\\source\\repos\\Bartosz_\u0141acny_projekt_BDwAI\\Bartosz_Lacny_projekt_bazy_danych\\Models\\AdoptionApplication.cs",
+              "RelativeToolTip": "Bartosz_Lacny_projekt_bazy_danych\\Models\\AdoptionApplication.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T10:06:33.1Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\lbart\\source\\repos\\Bartosz_\u0141acny_projekt_BDwAI\\Bartosz_Lacny_projekt_bazy_danych\\Program.cs",
+              "RelativeDocumentMoniker": "Bartosz_Lacny_projekt_bazy_danych\\Program.cs",
+              "ToolTip": "C:\\Users\\lbart\\source\\repos\\Bartosz_\u0141acny_projekt_BDwAI\\Bartosz_Lacny_projekt_bazy_danych\\Program.cs",
+              "RelativeToolTip": "Bartosz_Lacny_projekt_bazy_danych\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T10:06:23.944Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\lbart\\source\\repos\\Bartosz_\u0141acny_projekt_BDwAI\\Bartosz_Lacny_projekt_bazy_danych\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "Bartosz_Lacny_projekt_bazy_danych\\Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\lbart\\source\\repos\\Bartosz_\u0141acny_projekt_BDwAI\\Bartosz_Lacny_projekt_bazy_danych\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "Bartosz_Lacny_projekt_bazy_danych\\Models\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T10:03:53.32Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\lbart\\source\\repos\\Bartosz_\u0141acny_projekt_BDwAI\\Bartosz_Lacny_projekt_bazy_danych\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "Bartosz_Lacny_projekt_bazy_danych\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\lbart\\source\\repos\\Bartosz_\u0141acny_projekt_BDwAI\\Bartosz_Lacny_projekt_bazy_danych\\Models\\Category.cs",
+              "RelativeToolTip": "Bartosz_Lacny_projekt_bazy_danych\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T10:02:29.045Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Animal.cs",
+              "DocumentMoniker": "C:\\Users\\lbart\\source\\repos\\Bartosz_\u0141acny_projekt_BDwAI\\Bartosz_Lacny_projekt_bazy_danych\\Models\\Animal.cs",
+              "RelativeDocumentMoniker": "Bartosz_Lacny_projekt_bazy_danych\\Models\\Animal.cs",
+              "ToolTip": "C:\\Users\\lbart\\source\\repos\\Bartosz_\u0141acny_projekt_BDwAI\\Bartosz_Lacny_projekt_bazy_danych\\Models\\Animal.cs",
+              "RelativeToolTip": "Bartosz_Lacny_projekt_bazy_danych\\Models\\Animal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T10:01:52.162Z"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

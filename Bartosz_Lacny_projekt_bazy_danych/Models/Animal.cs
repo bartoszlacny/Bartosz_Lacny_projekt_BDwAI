@@ -2,7 +2,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace Bartosz_Łacny_projekt_BDwAI.Models
+namespace Bartosz_Lacny_projekt_bazy_danych.Models
 {
     public class Animal
     {

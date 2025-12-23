@@ -1,7 +1,7 @@
 ﻿
 using System.ComponentModel.DataAnnotations;
 
-namespace Bartosz_Łacny_projekt_BDwAI.Models
+namespace Bartosz_Lacny_projekt_bazy_danych.Models
 {
     public class Cage
     {

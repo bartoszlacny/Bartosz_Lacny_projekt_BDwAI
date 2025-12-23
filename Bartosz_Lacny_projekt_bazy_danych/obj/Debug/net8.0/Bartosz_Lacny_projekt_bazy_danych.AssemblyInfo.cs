@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Bartosz_Lacny_projekt_bazy_danych")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+998edb7e3797942ed115c788c3bb3330a7fc8034")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8b35aed8032369b1074170e1b2009f03c8ea660a")]
 [assembly: System.Reflection.AssemblyProductAttribute("Bartosz_Lacny_projekt_bazy_danych")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Bartosz_Lacny_projekt_bazy_danych")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
