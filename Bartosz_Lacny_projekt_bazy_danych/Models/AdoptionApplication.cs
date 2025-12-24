@@ -19,8 +19,10 @@ namespace Bartosz_Lacny_projekt_bazy_danych.Models
         public string Message { get; set; }
 
         [DataType(DataType.Date)]
+        [Display(Name = "Data utworzenia wniosku")]
         public DateTime ApplicationDate { get; set; } = DateTime.Now;
 
+        [Display(Name = "Imię zwierzaka")]
         public int AnimalId { get; set; }
         [ForeignKey("AnimalId")]
         public virtual Animal? Animal { get; set; }

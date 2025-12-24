@@ -6,10 +6,12 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Bartosz_Lacny_projekt_bazy_danych.Data;
+using Microsoft.AspNetCore.Authorization;
 using Bartosz_Lacny_projekt_bazy_danych.Models;
 
 namespace Bartosz_Lacny_projekt_bazy_danych.Controllers
 {
+    [Authorize(Roles = "Admin")]
     public class AnimalsController : Controller
     {
         private readonly ApplicationDbContext _context;
@@ -20,12 +22,14 @@ namespace Bartosz_Lacny_projekt_bazy_danych.Controllers
         }
 
         // GET: Animals
+        [AllowAnonymous]
         public async Task<IActionResult> Index()
         {
             var applicationDbContext = _context.Animals.Include(a => a.Cage).Include(a => a.Category);
             return View(await applicationDbContext.ToListAsync());
         }
 
+        [AllowAnonymous]
         // GET: Animals/Details/5
         public async Task<IActionResult> Details(int? id)
         {

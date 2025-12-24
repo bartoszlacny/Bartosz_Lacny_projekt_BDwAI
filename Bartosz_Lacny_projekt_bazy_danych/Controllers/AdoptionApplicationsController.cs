@@ -7,9 +7,10 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Bartosz_Lacny_projekt_bazy_danych.Data;
 using Bartosz_Lacny_projekt_bazy_danych.Models;
-
+using Microsoft.AspNetCore.Authorization;
 namespace Bartosz_Lacny_projekt_bazy_danych.Controllers
 {
+    [Authorize]
     public class AdoptionApplicationsController : Controller
     {
         private readonly ApplicationDbContext _context;
@@ -20,6 +21,7 @@ namespace Bartosz_Lacny_projekt_bazy_danych.Controllers
         }
 
         // GET: AdoptionApplications
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Index()
         {
             var applicationDbContext = _context.AdoptionApplications.Include(a => a.Animal);
@@ -63,7 +65,7 @@ namespace Bartosz_Lacny_projekt_bazy_danych.Controllers
             {
                 _context.Add(adoptionApplication);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction("Index", "Animals");
             }
             ViewData["AnimalId"] = new SelectList(_context.Animals, "Id", "Name", adoptionApplication.AnimalId);
             return View(adoptionApplication);
@@ -123,6 +125,7 @@ namespace Bartosz_Lacny_projekt_bazy_danych.Controllers
         }
 
         // GET: AdoptionApplications/Delete/5
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)

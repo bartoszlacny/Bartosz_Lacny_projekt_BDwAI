@@ -7,9 +7,10 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Bartosz_Lacny_projekt_bazy_danych.Data;
 using Bartosz_Lacny_projekt_bazy_danych.Models;
-
+using Microsoft.AspNetCore.Authorization;
 namespace Bartosz_Lacny_projekt_bazy_danych.Controllers
 {
+    [Authorize(Roles = "Admin")]
     public class CagesController : Controller
     {
         private readonly ApplicationDbContext _context;
