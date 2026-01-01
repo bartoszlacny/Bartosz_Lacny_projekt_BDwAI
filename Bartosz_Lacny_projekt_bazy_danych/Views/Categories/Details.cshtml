@@ -4,12 +4,12 @@
     ViewData["Title"] = "Details";
 }
 
-<h1>Szczegóły</h1>
+<h1>Szczegóły gatunku</h1>
 
 <div>
     <hr />
     <dl class="row">
-        <dt class = "col-sm-2">
+        <dt class="col-sm-2 mt-1">
             @Html.DisplayNameFor(model => model.Name)
         </dt>
         <dd class = "col-sm-10">
@@ -17,7 +17,8 @@
         </dd>
     </dl>
 </div>
-<div>
-    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
-    <a asp-action="Index">Wróc do listy</a>
+<div class="d-flex gap-2 mt-1">
+    <a asp-action="Edit" asp-route-id="@Model?.Id" class="btn btn-primary">Edytuj</a>
+    <a asp-action="Index" class="btn btn-secondary">Wróc do listy gatunków</a>
 </div>
+

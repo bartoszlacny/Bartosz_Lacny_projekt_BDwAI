@@ -4,11 +4,12 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Lista zwierząt w schronisku</h1>
+<h1>Lista wniosków</h1>
 
 <p>
-    <a asp-action="Create">Utwórz nowy wniosek</a>
+    <a asp-action="Create" class="btn btn-success mt-3">Utwórz nowy wniosek</a>
 </p>
+
 <table class="table">
     <thead>
         <tr>
@@ -22,7 +23,7 @@
                 @Html.DisplayNameFor(model => model.ApplicationDate)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Animal)
+                @Html.DisplayNameFor(model => model.Animal!.Name)
             </th>
             <th></th>
         </tr>
@@ -40,12 +41,12 @@
                 @Html.DisplayFor(modelItem => item.ApplicationDate)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Animal.Name)
+                    @Html.DisplayFor(modelItem => item.Animal.Name)
             </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edytuj</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Szczegóły</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Usuń</a>
+            <td class="text-end">
+                <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-secondary me-1">Edytuj</a>
+                <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-sm btn-secondary text-white me-1">Szczegóły</a>
+                <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-secondary">Usuń</a>
             </td>
         </tr>
 }

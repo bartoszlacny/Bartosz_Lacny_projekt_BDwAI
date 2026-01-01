@@ -4,11 +4,11 @@
     ViewData["Title"] = "Details";
 }
 
-<h1>Szczegóły</h1>
+<h1>Szczegóły zwierzaka</h1>
 
 <div>
     <hr />
-    <dl class="row">
+    <dl class="row mt-1">
         <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.Name)
         </dt>
@@ -28,20 +28,20 @@
             @Html.DisplayFor(model => model.Description)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Category)
+            @Html.DisplayNameFor(model => model.Category!.Name)
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.Category.Name)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Cage)
+            @Html.DisplayNameFor(model => model.Cage!.CageNumber)
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.Cage.CageNumber)
         </dd>
     </dl>
 </div>
-<div>
-    <a asp-action="Edit" asp-route-id="@Model?.Id">Edytuj</a> |
-    <a asp-action="Index">Powrót do listy zwierząt</a>
+<div class="d-flex gap-2 mt-1">
+    <a asp-action="Edit" asp-route-id="@Model?.Id" class="btn btn-primary">Edytuj</a>
+    <a asp-action="Index" class="btn btn-secondary">Wróć do listy zwierząt</a>
 </div>

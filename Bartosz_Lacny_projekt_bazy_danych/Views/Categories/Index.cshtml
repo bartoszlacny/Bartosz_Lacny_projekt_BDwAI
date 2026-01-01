@@ -7,8 +7,9 @@
 <h1>Lista gatunków</h1>
 
 <p>
-    <a asp-action="Create">Dodaj nowy gatunek</a>
+    <a asp-action="Create" class="btn btn-success mt-3">Dodaj nowy gatunek</a>
 </p>
+
 <table class="table">
     <thead>
         <tr>
@@ -21,13 +22,14 @@
     <tbody>
 @foreach (var item in Model) {
         <tr>
-            <td>
+            <td class="align-middle">
                 @Html.DisplayFor(modelItem => item.Name)
             </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edytuj</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Szczegóły</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Usuń</a>
+
+            <td class="text-end">
+                    <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-secondary me-1">Edytuj</a>
+                    <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-sm btn-secondary text-white me-1">Szczegóły</a>
+                    <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-secondary">Usuń</a>
             </td>
         </tr>
 }

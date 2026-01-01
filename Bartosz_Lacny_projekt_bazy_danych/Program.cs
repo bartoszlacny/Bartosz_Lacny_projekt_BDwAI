@@ -52,11 +52,10 @@ using (var scope = app.Services.CreateScope())
     }
     catch (Exception ex)
     {
-        Console.WriteLine("B��d podczas tworzenia bazy: " + ex.Message);
+        Console.WriteLine("Błąd podczas tworzenia bazy: " + ex.Message);
     }
 }
 
-// Reszta konfiguracji
 if (app.Environment.IsDevelopment())
 {
     app.UseMigrationsEndPoint();

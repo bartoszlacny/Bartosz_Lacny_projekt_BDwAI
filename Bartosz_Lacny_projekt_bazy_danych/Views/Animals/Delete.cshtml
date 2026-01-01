@@ -4,7 +4,7 @@
     ViewData["Title"] = "Delete";
 }
 
-<h1>Usuń zwirzaka</h1>
+<h1>Usuń zwierzaka</h1>
 
 <div>
     <hr />
@@ -28,13 +28,13 @@
             @Html.DisplayFor(model => model.Description)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Category)
+            @Html.DisplayNameFor(model => model.Category!.Name)
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.Category.Name)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Cage)
+            @Html.DisplayNameFor(model => model.Cage!.CageNumber)
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.Cage.CageNumber)
@@ -43,7 +43,9 @@
     
     <form asp-action="Delete">
         <input type="hidden" asp-for="Id" />
-        <input type="submit" value="Usuń" class="btn btn-danger" /> |
-        <a asp-action="Index">Powrót do listy zwirząt</a>
+        <div class="d-flex gap-2 mt-1">
+            <input type="submit" value="Usuń" class="btn btn-danger" />
+            <a asp-action="Index" class="btn btn-secondary">Wróć do listy zwirząt</a>
+        </div>
     </form>
 </div>

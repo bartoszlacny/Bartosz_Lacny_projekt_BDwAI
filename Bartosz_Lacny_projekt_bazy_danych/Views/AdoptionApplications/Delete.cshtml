@@ -27,7 +27,7 @@
             @Html.DisplayFor(model => model.ApplicationDate)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Animal)
+            @Html.DisplayNameFor(model => model.Animal!.Name)
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.Animal.Name)
@@ -36,7 +36,9 @@
     
     <form asp-action="Delete">
         <input type="hidden" asp-for="Id" />
-        <input type="submit" value="Usuń" class="btn btn-danger" /> |
-        <a asp-action="Index">Wróc do listy wniosków</a>
+        <div class="d-flex gap-2 mt-1">
+            <input type="submit" value="Usuń" class="btn btn-danger" />
+            <a asp-action="Index" class="btn btn-secondary">Wróć do listy wniosków</a>
+        </div>
     </form>
 </div>

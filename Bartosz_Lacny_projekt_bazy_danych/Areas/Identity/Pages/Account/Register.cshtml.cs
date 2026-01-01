@@ -96,7 +96,7 @@ namespace Bartosz_Lacny_projekt_bazy_danych.Areas.Identity.Pages.Account
             /// </summary>
             [DataType(DataType.Password)]
             [Display(Name = "Confirm password")]
-            [Compare("Password", ErrorMessage = "The password and confirmation password do not match.")]
+            [Compare("Password", ErrorMessage = "Podane hasła nie pasują do siebie.")]
             public string ConfirmPassword { get; set; }
         }
 
@@ -121,7 +121,7 @@ namespace Bartosz_Lacny_projekt_bazy_danych.Areas.Identity.Pages.Account
 
                 if (result.Succeeded)
                 {
-                    _logger.LogInformation("User created a new account with password.");
+                    _logger.LogInformation("Konto zostało utworzone.");
 
                     var userId = await _userManager.GetUserIdAsync(user);
                     var code = await _userManager.GenerateEmailConfirmationTokenAsync(user);
@@ -133,7 +133,7 @@ namespace Bartosz_Lacny_projekt_bazy_danych.Areas.Identity.Pages.Account
                         protocol: Request.Scheme);
 
                     await _emailSender.SendEmailAsync(Input.Email, "Confirm your email",
-                        $"Please confirm your account by <a href='{HtmlEncoder.Default.Encode(callbackUrl)}'>clicking here</a>.");
+                        $"Proszę potwierdzić swoje konto <a href='{HtmlEncoder.Default.Encode(callbackUrl)}'> klikając tutaj</a>.");
 
                     if (_userManager.Options.SignIn.RequireConfirmedAccount)
                     {

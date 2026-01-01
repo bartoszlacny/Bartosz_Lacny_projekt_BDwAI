@@ -20,11 +20,12 @@ namespace Bartosz_Lacny_projekt_bazy_danych.Models
         [Display(Name = "Opis")]
         public string? Description { get; set; }
 
-
+        [Display(Name = "Gatunek")]
         public int CategoryId { get; set; }
         [ForeignKey("CategoryId")]
         public virtual Category? Category { get; set; }
-
+        
+        [Display(Name = "Klatka")]
         public int CageId { get; set; }
         [ForeignKey("CageId")]
         public virtual Cage? Cage { get; set; }

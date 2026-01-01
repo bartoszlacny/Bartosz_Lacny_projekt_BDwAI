@@ -4,7 +4,7 @@
     ViewData["Title"] = "Edit";
 }
 
-<h1>Edytuj</h1>
+<h1>Edytuj zwierzaka</h1>
 <hr />
 <div class="row">
     <div class="col-md-4">
@@ -16,35 +16,32 @@
                 <input asp-for="Name" class="form-control" />
                 <span asp-validation-for="Name" class="text-danger"></span>
             </div>
-            <div class="form-group">
+            <div class="form-group mt-2">
                 <label asp-for="Age" class="control-label"></label>
                 <input asp-for="Age" class="form-control" />
                 <span asp-validation-for="Age" class="text-danger"></span>
             </div>
-            <div class="form-group">
+            <div class="form-group mt-2">
                 <label asp-for="Description" class="control-label"></label>
                 <input asp-for="Description" class="form-control" />
                 <span asp-validation-for="Description" class="text-danger"></span>
             </div>
-            <div class="form-group">
+            <div class="form-group mt-2">
                 <label asp-for="CategoryId" class="control-label"></label>
                 <select asp-for="CategoryId" class="form-control" asp-items="ViewBag.CategoryId"></select>
                 <span asp-validation-for="CategoryId" class="text-danger"></span>
             </div>
-            <div class="form-group">
+            <div class="form-group mt-2">
                 <label asp-for="CageId" class="control-label"></label>
                 <select asp-for="CageId" class="form-control" asp-items="ViewBag.CageId"></select>
                 <span asp-validation-for="CageId" class="text-danger"></span>
             </div>
-            <div class="form-group">
+            <div class="d-flex gap-2 mt-3">
                 <input type="submit" value="Zapisz" class="btn btn-primary" />
+                <a asp-action="Index" class="btn btn-secondary">Wróc do listy zwierząt</a>
             </div>
         </form>
     </div>
-</div>
-
-<div>
-    <a asp-action="Index">Wróc do listy</a>
 </div>
 
 @section Scripts {
